@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <a href="/">Linkje</a>
+</Layout>
+
+<style>
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        color: yellow;
+        font-size: 1em;
+        width: 120px;
+        height: 120px;
+        margin-left: 2em;
+        border-radius: 25px;
+        transition: color 0.1s;
+    }
+
+    a:hover {
+        background-color: yellow;
+        color: red;
+    }
+</style>
